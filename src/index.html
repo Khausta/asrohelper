@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrohelper</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <picture>
+            <source srcset="img/bg-img.png" media="(min-width: 1440px)">
+            <!-- <source srcset="icons/logo-768.svg" media="(min-width: 768px)"> -->
+            <img class="main-container__background-img" src="img/bg-img-360.png" alt="Sky">
+        </picture>
+        <picture>
+            <source srcset="img/circle-1440.png" media="(min-width: 1440px)">
+            <img class="big-circle" src="img/circle-768.png" alt="Circle with planets">
+        </picture>
+        <header class="header container">
+            
+            <a href="#" class="logo">
+                <picture>
+                    <source srcset="icons/logo.svg" media="(min-width: 1440px)">
+                    <source srcset="icons/logo-768.svg" media="(min-width: 768px)">
+                    <img src="icons/logo.svg" alt="Logotype">
+                </picture>
+            </a>
+
+            <nav class="header__menu">
+                <ul>
+                    <li><a class="header__menu-link" href="#">О приложении</a></li>
+                    <li><a class="header__menu-link" href="#">Тарифы</a></li>
+                    <li><a class="header__menu-link" href="#">Вопросы и ответы</a></li>
+                </ul>
+            </nav>
+            <button type="button" class="button button_blue">Купить промокод</button>
+            <div class="header__burger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </header>
+        <section class="promo container">
+            <div class="promo__wrapper">
+                <div class="promo__text-block">
+                    <h1 class="promo__title">
+                        Выберите лучший билет в мир <span class="purple">TestProject</span>!
+                    </h1>
+                    <p class="promo__subtitle">
+                        <span class="purple">Промокоды TestProject</span> – ваш билет на VIP-места в&nbsp;увлекательном&nbsp;путешествии&nbsp;по&nbsp;миру астрологии&nbsp;и&nbsp;эзотерики!
+                    </p>
+                    <button type="button" class="button button_green">Купить промокод</button>
+                </div>
+                <div class="promo__img-wrapper">
+                    <picture>
+                        <source srcset="img/app-photo-1440.png" media="(min-width: 1440px)">
+                        <source srcset="img/app-photo-768.png" media="(min-width: 768px)">
+                        <img class="promo__img" src="img/app-photo-360.png" alt="Photo of the app">
+                    </picture>
+                   
+                    
+                </div>
+            </div>
+            <div class="promo__links">
+                <a class="promo__link" href="#">
+                    <img class=" app-link" src="icons/app-store.svg" alt="App Store link">
+                </a>
+                <a class="promo__link" href="#">
+
+                    <img class=" app-link" src="icons/google-play.svg" alt="Google Play link">
+                </a>
+            </div>
+        </section>            
+    </div>
+   
+
+     
+    <script src="js/script.js"></script>
+</body>
+</html>
